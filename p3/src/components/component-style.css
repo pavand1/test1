@@ -40,7 +40,26 @@ ul {
 li {
   padding: 10px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
 }
 li:hover {
   background-color: #f1f1f1;
+}
+.dropdown-container {
+  width: 300px;
+  position: relative;
+  background-color: #f1f1f1;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.dropdown-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
 }
